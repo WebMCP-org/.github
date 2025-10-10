@@ -2,12 +2,12 @@
 
 WebMCP is an extension of the [Model Context Protocol](https://modelcontextprotocol.io/overview), bringing MCP to the web. It enables websites to act as MCP servers, exposing functionality as AI-callable tools while leveraging the browser's authentication and security model.
 
-* 📚 [Documentation](https://example.com/docs) for guides and examples
+* 📚 [Documentation](https://docs.mcp-b.ai/introduction) for guides and examples
 * 💻 [Main Repository](https://github.com/MiguelsPizza/WebMCP) for the core codebase, packages, and browser extension
 * ❓ [Discussions](https://github.com/MiguelsPizza/WebMCP/discussions) for questions and ideas
 * 🐛 [Issues](https://github.com/MiguelsPizza/WebMCP/issues) for bug reports and feature requests
 * 📣 [Announcements](https://github.com/MiguelsPizza/WebMCP/releases) & [X](https://x.com/miguelsPizza)
-* 👥 [Community](https://discord.gg/example) for chatting and collaboration
+* 👥 [Discord](https://discord.gg/ZnHG4csJRB) for chatting and collaboration
 * 🤝 [Contributing](https://github.com/MiguelsPizza/WebMCP/blob/main/CONTRIBUTING.md) guidelines
 
 ## Getting Started
