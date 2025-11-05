@@ -1,20 +1,100 @@
-# WebMCP
+<div align="center">
+  <img src="https://mcp-b.ai/logo.svg" alt="MCP-B Logo" width="200" height="200">
 
-WebMCP is an extension of the [Model Context Protocol](https://modelcontextprotocol.io/overview), bringing MCP to the web. It enables websites to act as MCP servers, exposing functionality as AI-callable tools while leveraging the browser's authentication and security model.
+  # WebMCP
 
-* 📚 [Documentation](https://docs.mcp-b.ai/introduction) for guides and examples
-* 💻 [Main Repository](https://github.com/MiguelsPizza/WebMCP) for the core codebase, packages, and browser extension
-* ❓ [Discussions](https://github.com/MiguelsPizza/WebMCP/discussions) for questions and ideas
-* 🐛 [Issues](https://github.com/MiguelsPizza/WebMCP/issues) for bug reports and feature requests
-* 📣 [Announcements](https://github.com/MiguelsPizza/WebMCP/releases) & [X](https://x.com/miguelsPizza)
-* 👥 [Discord](https://discord.gg/ZnHG4csJRB) for chatting and collaboration
-* 🤝 [Contributing](https://github.com/MiguelsPizza/WebMCP/blob/main/CONTRIBUTING.md) guidelines
+  **W3C Standard for Making Websites AI-Accessible**
 
-## Getting Started
-Explore our repositories to integrate WebMCP into your projects:
-- [WebMCP Core](https://github.com/MiguelsPizza/WebMCP): SDKs, transports, and examples for browser-based MCP servers.
-- [Chrome Extension](https://github.com/MiguelsPizza/WebMCP/tree/main/extension): The browser extension for discovering and interacting with MCP tools.
-- [Native Host](https://github.com/MiguelsPizza/WebMCP/tree/main/native-server): Bridge for connecting to local MCP clients like Claude or Cursor.
+  [![Documentation](https://img.shields.io/badge/docs-docs.mcp--b.ai-blue)](https://docs.mcp-b.ai)
+  [![Discord](https://img.shields.io/discord/your-discord-id?label=Discord&logo=discord)](https://discord.gg/ZnHG4csJRB)
+  [![NPM](https://img.shields.io/npm/v/@mcp-b/transports?label=npm)](https://www.npmjs.com/package/@mcp-b/transports)
+  [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-## About
-WebMCP is an open-source initiative created by @miguelsPizza to make AI interactions with web apps seamless and secure. Contributions from the community are welcome! Reach out at alexmnahas@gmail.com.
+  [Website](https://mcp-b.ai) • [Documentation](https://docs.mcp-b.ai) • [Discord](https://discord.gg/ZnHG4csJRB) • [Examples](https://github.com/WebMCP-org/examples)
+</div>
+
+---
+
+## Overview
+
+WebMCP extends the [Model Context Protocol](https://modelcontextprotocol.io) to the browser, enabling websites to expose AI-callable tools through `navigator.modelContext`. Build intelligent, interactive web applications that AI agents can discover and control seamlessly.
+
+## Key Features
+
+- **🌐 Browser-Native MCP** - Implements W3C Web Model Context API for standardized AI tool registration
+- **🔒 Secure by Default** - Leverages browser authentication and origin-based security model
+- **⚡ Zero Backend Required** - Expose tools directly from your frontend application
+- **🤖 Agent-Ready** - Works with Claude, ChatGPT, and any MCP-compatible AI client
+- **📦 Framework Agnostic** - React hooks, vanilla JS, and framework-specific integrations available
+
+## Quick Start
+
+```bash
+# Install the core package
+npm install @mcp-b/global
+
+# Or use React hooks
+npm install @mcp-b/react-webmcp
+```
+
+```javascript
+// Register a tool that AI agents can discover and call
+navigator.modelContext.registerTool({
+  name: "get_user_profile",
+  description: "Get the current user's profile information",
+  inputSchema: {
+    type: "object",
+    properties: {},
+  },
+  handler: async () => {
+    return { name: "John Doe", email: "john@example.com" };
+  }
+});
+```
+
+[View Full Documentation →](https://docs.mcp-b.ai/quickstart)
+
+## Core Packages
+
+| Package | Description | Links |
+|---------|-------------|-------|
+| [`@mcp-b/global`](https://docs.mcp-b.ai/packages/global) | W3C Web Model Context API polyfill | [npm](https://www.npmjs.com/package/@mcp-b/global) |
+| [`@mcp-b/react-webmcp`](https://docs.mcp-b.ai/packages/react-webmcp) | React hooks for WebMCP | [npm](https://www.npmjs.com/package/@mcp-b/react-webmcp) |
+| [`@mcp-b/transports`](https://docs.mcp-b.ai/packages/transports) | Browser transport implementations | [npm](https://www.npmjs.com/package/@mcp-b/transports) |
+| [`@mcp-b/webmcp-ts-sdk`](https://docs.mcp-b.ai/packages/webmcp-ts-sdk) | TypeScript SDK for WebMCP | [npm](https://www.npmjs.com/package/@mcp-b/webmcp-ts-sdk) |
+| [`@mcp-b/extension-tools`](https://docs.mcp-b.ai/packages/extension-tools) | Chrome Extension API wrappers | [npm](https://www.npmjs.com/package/@mcp-b/extension-tools) |
+
+## Resources
+
+- **[Documentation](https://docs.mcp-b.ai)** - Comprehensive guides, API references, and examples
+- **[Live Demo](https://mcp-b.ai)** - Interactive tool examples and playground
+- **[Browser Extension](https://docs.mcp-b.ai/extension/index)** - Chrome extension for tool discovery
+- **[Best Practices](https://docs.mcp-b.ai/best-practices)** - Tool design patterns and security guidelines
+- **[AI Framework Integration](https://docs.mcp-b.ai/ai-frameworks/index)** - Connect with Assistant-UI, AG-UI, and more
+
+## Community
+
+- **[Discord](https://discord.gg/ZnHG4csJRB)** - Get help, share ideas, and collaborate
+- **[GitHub Discussions](https://github.com/orgs/WebMCP-org/discussions)** - Ask questions and discuss features
+- **[Contributing](CONTRIBUTING.md)** - Learn how to contribute to WebMCP
+- **[Code of Conduct](CODE_OF_CONDUCT.md)** - Our community standards
+
+## Use Cases
+
+- **Interactive Dashboards** - Let AI agents query metrics and visualize data
+- **E-commerce Sites** - Enable natural language product search and checkout
+- **Documentation Sites** - AI-powered search and content generation
+- **SaaS Applications** - Expose app functionality as composable AI tools
+- **Admin Panels** - Voice and chat-based admin controls
+
+## License
+
+WebMCP is open source software licensed under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+  Built with ❤️ by the WebMCP community
+
+  [Website](https://mcp-b.ai) • [Docs](https://docs.mcp-b.ai) • [Discord](https://discord.gg/ZnHG4csJRB) • [NPM](https://www.npmjs.com/package/@mcp-b/transports)
+</div>
