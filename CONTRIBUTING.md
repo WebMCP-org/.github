@@ -1,17 +1,17 @@
-# Contributing to WebMCP
+# Contributing to MCP-B
 
-Thank you for your interest in contributing to WebMCP! We're building the standard for AI-accessible web applications, and we welcome contributions from the community.
+Thank you for your interest in contributing to **MCP-B**! We're building the standard for AI-accessible web applications, and we welcome contributions from the community.
 
 ## Getting Started
 
 1. **Join our community**
    - [Discord](https://discord.gg/ZnHG4csJRB) - Chat with maintainers and other contributors
-   - [GitHub Discussions](https://github.com/orgs/WebMCP-org/discussions) - Ask questions and discuss ideas
+   - [GitHub Discussions](https://github.com/orgs/MCP-B/discussions) - Ask questions and discuss ideas
 
 2. **Find something to work on**
-   - Browse [open issues](https://github.com/orgs/WebMCP-org/issues)
+   - Browse [open issues](https://github.com/orgs/MCP-B/issues)
    - Look for issues labeled `good first issue` or `help wanted`
-   - Check our [project boards](https://github.com/orgs/WebMCP-org/projects) for planned work
+   - Check our [project boards](https://github.com/orgs/MCP-B/projects) for planned work
 
 3. **Read the documentation**
    - [Architecture Overview](https://docs.mcp-b.ai/concepts/architecture)
@@ -152,7 +152,7 @@ Contributors who make significant contributions will be:
 ## Questions?
 
 - Ask in [Discord](https://discord.gg/ZnHG4csJRB)
-- Open a [GitHub Discussion](https://github.com/orgs/WebMCP-org/discussions)
+- Open a [GitHub Discussion](https://github.com/orgs/MCP-B/discussions)
 - Check the [documentation](https://docs.mcp-b.ai)
 
 ## License
@@ -161,4 +161,4 @@ By contributing, you agree that your contributions will be licensed under the MI
 
 ---
 
-Thank you for contributing to WebMCP! Together, we're building the future of AI-accessible web applications.
+Thank you for contributing to **MCP-B**! Together, we're building the future of AI-accessible web applications.
