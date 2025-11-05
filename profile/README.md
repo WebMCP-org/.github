@@ -22,7 +22,16 @@
 
 ## Overview
 
-**MCP-B** (Model Context Protocol for Browsers) extends the [Model Context Protocol](https://modelcontextprotocol.io) to the browser, enabling websites to expose AI-callable tools through `navigator.modelContext`. Build intelligent, interactive web applications that AI agents can discover and control seamlessly.
+**MCP-B** is a bridge between web and backend systems that brings the Model Context Protocol to the browser. It serves two critical functions:
+
+1. **API Implementation** — Polyfill that implements the `navigator.modelContext` interface for browsers lacking native support
+2. **Protocol Translation** — Converts between WebMCP's web-native format and the MCP protocol, enabling cross-compatibility
+
+MCP-B creates interoperability by enabling WebMCP-formatted tools to function with MCP clients, and MCP-formatted tools to operate within WebMCP-enabled browsers.
+
+### What is WebMCP?
+
+**WebMCP** (Web Model Context Protocol) is a W3C web standard currently being incubated by the Web Machine Learning Community Group. It enables websites to expose tools to AI agents through the browser's `navigator.modelContext` API. WebMCP is optimized for browser-based, user-present interactions with built-in web security features, while traditional MCP handles backend services and headless integrations. Both protocols complement each other and can operate within the same application simultaneously.
 
 ## Key Features
 
@@ -73,7 +82,8 @@ navigator.modelContext.registerTool({
 
 - **[Documentation](https://docs.mcp-b.ai)** — Comprehensive guides, API references, and examples
 - **[Live Demo](https://mcp-b.ai)** — Interactive tool examples and playground
-- **[Browser Extension](https://docs.mcp-b.ai/extension/index)** — Chrome extension for tool discovery
+- **[Chrome Extension](https://chromewebstore.google.com/detail/mcp-bextension/daohopfhkdelnpemnhlekblhnikhdhfa)** — AI-powered browser assistant with MCP integration
+- **[WebMCP Explainer](https://github.com/webmachinelearning/webmcp)** — Official W3C WebMCP specification and explainer
 - **[Best Practices](https://docs.mcp-b.ai/best-practices)** — Tool design patterns and security guidelines
 - **[AI Framework Integration](https://docs.mcp-b.ai/ai-frameworks/index)** — Connect with Assistant-UI, AG-UI, and more
 
