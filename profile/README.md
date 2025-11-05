@@ -1,14 +1,8 @@
 <div align="center">
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MCP-B/.github/main/profile/logo-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MCP-B/.github/main/profile/logo-light.svg">
-    <img src="https://raw.githubusercontent.com/MCP-B/.github/main/profile/logo.svg" alt="MCP-B Logo" width="200" height="200">
-  </picture>
-
   # MCP-B
 
-  ### W3C Standard for Making Websites AI-Accessible
+  ### Building a Better Web for Browser Agents
 
   <br>
 
