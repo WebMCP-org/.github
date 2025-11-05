@@ -1,18 +1,18 @@
 # .github
 
-Organization-wide GitHub configuration and community health files for WebMCP.
+Organization-wide GitHub configuration and community health files for **MCP-B**.
 
 ## About This Repository
 
-This repository contains default community health files that apply to all repositories in the WebMCP organization. These files provide guidelines, policies, and resources for contributors and users.
+This repository contains default community health files that apply to all repositories in the **MCP-B** organization. These files provide guidelines, policies, and resources for contributors and users.
 
 ## Contents
 
-- **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** - Community standards and behavior guidelines
-- **[CONTRIBUTING.md](CONTRIBUTING.md)** - How to contribute to WebMCP projects
-- **[SECURITY.md](SECURITY.md)** - Security policies and vulnerability reporting
-- **[SUPPORT.md](SUPPORT.md)** - Getting help and community resources
-- **[profile/README.md](profile/README.md)** - Organization profile displayed on GitHub
+- **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** — Community standards and behavior guidelines
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** — How to contribute to MCP-B projects
+- **[SECURITY.md](SECURITY.md)** — Security policies and vulnerability reporting
+- **[SUPPORT.md](SUPPORT.md)** — Getting help and community resources
+- **[profile/README.md](profile/README.md)** — Organization profile displayed on GitHub
 
 ## Resources
 
@@ -23,7 +23,7 @@ This repository contains default community health files that apply to all reposi
 
 ## For Maintainers
 
-These files serve as defaults for all WebMCP repositories. Individual repositories can override these by adding their own versions.
+These files serve as defaults for all **MCP-B** repositories. Individual repositories can override these by adding their own versions.
 
 ### Updating Community Files
 
@@ -42,4 +42,4 @@ Consider adding:
 
 ---
 
-WebMCP Organization © 2024 | [MIT License](LICENSE)
+**MCP-B Organization** © 2025 | [MIT License](LICENSE)

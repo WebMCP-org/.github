@@ -1,13 +1,13 @@
 # Getting Support
 
-Welcome to the WebMCP community! We're here to help you build AI-accessible web applications. This guide will help you find the right resources and get answers to your questions.
+Welcome to the **MCP-B** community! We're here to help you build AI-accessible web applications. This guide will help you find the right resources and get answers to your questions.
 
 ## Quick Links
 
 - **[Documentation](https://docs.mcp-b.ai)** - Comprehensive guides and API references
 - **[Discord](https://discord.gg/ZnHG4csJRB)** - Real-time chat with the community
-- **[GitHub Discussions](https://github.com/orgs/WebMCP-org/discussions)** - Ask questions and discuss ideas
-- **[Examples](https://github.com/WebMCP-org/examples)** - Sample implementations
+- **[GitHub Discussions](https://github.com/orgs/MCP-B/discussions)** - Ask questions and discuss ideas
+- **[Examples](https://github.com/MCP-B/examples)** - Sample implementations
 - **[Live Demo](https://mcp-b.ai)** - Interactive examples and playground
 
 ## Documentation
@@ -15,10 +15,10 @@ Welcome to the WebMCP community! We're here to help you build AI-accessible web 
 Start with our comprehensive documentation:
 
 ### Getting Started
-- **[Introduction](https://docs.mcp-b.ai/introduction)** - What is WebMCP?
+- **[Introduction](https://docs.mcp-b.ai/introduction)** - What is MCP-B?
 - **[Quick Start](https://docs.mcp-b.ai/quickstart)** - Get up and running in minutes
 - **[Architecture Overview](https://docs.mcp-b.ai/concepts/architecture)** - Understand how it works
-- **[Examples](https://docs.mcp-b.ai/examples)** - See WebMCP in action
+- **[Examples](https://docs.mcp-b.ai/examples)** - See MCP-B in action
 
 ### Core Concepts
 - **[Tool Registration](https://docs.mcp-b.ai/concepts/tool-registration)** - Register tools with navigator.modelContext
@@ -53,7 +53,7 @@ Join our [Discord server](https://discord.gg/ZnHG4csJRB) for:
 
 ### GitHub Discussions
 
-Use [GitHub Discussions](https://github.com/orgs/WebMCP-org/discussions) for:
+Use [GitHub Discussions](https://github.com/orgs/MCP-B/discussions) for:
 - Feature requests and ideas
 - Architecture discussions
 - Questions that benefit from long-form answers
@@ -63,7 +63,7 @@ Use [GitHub Discussions](https://github.com/orgs/WebMCP-org/discussions) for:
 
 ### GitHub Issues
 
-File [GitHub Issues](https://github.com/orgs/WebMCP-org/issues) for:
+File [GitHub Issues](https://github.com/orgs/MCP-B/issues) for:
 - Bug reports
 - Documentation issues
 - Specific technical problems
@@ -77,8 +77,8 @@ To get the fastest, most helpful response:
 1. **Search First**
    - Check the [documentation](https://docs.mcp-b.ai)
    - Search [Discord history](https://discord.gg/ZnHG4csJRB)
-   - Browse [GitHub Discussions](https://github.com/orgs/WebMCP-org/discussions)
-   - Look through [existing issues](https://github.com/orgs/WebMCP-org/issues)
+   - Browse [GitHub Discussions](https://github.com/orgs/MCP-B/discussions)
+   - Look through [existing issues](https://github.com/orgs/MCP-B/issues)
 
 2. **Provide Context**
    - What are you trying to accomplish?
@@ -142,8 +142,8 @@ For more solutions, see the [Troubleshooting Guide](https://docs.mcp-b.ai/troubl
 
 ## Professional Support
 
-While WebMCP is open source and community-driven, the maintainers are available for:
-- Consulting on WebMCP integration
+While MCP-B is open source and community-driven, the maintainers are available for:
+- Consulting on MCP-B integration
 - Enterprise support and training
 - Custom development and implementation
 
@@ -151,7 +151,7 @@ Contact the maintainers through Discord or GitHub for inquiries.
 
 ## Contributing
 
-Want to help improve WebMCP?
+Want to help improve MCP-B?
 - Report bugs and issues
 - Improve documentation
 - Submit pull requests
@@ -161,7 +161,7 @@ See our [Contributing Guide](CONTRIBUTING.md) to get started.
 
 ## Stay Updated
 
-- **[GitHub Releases](https://github.com/orgs/WebMCP-org/repositories)** - Release notes and changelogs
+- **[GitHub Releases](https://github.com/orgs/MCP-B/repositories)** - Release notes and changelogs
 - **[Discord Announcements](https://discord.gg/ZnHG4csJRB)** - Important updates
 - **[Changelog](https://docs.mcp-b.ai/changelog)** - Detailed version history
 - **[Twitter/X](https://x.com/miguelsPizza)** - News and updates
@@ -172,6 +172,6 @@ All community interactions are governed by our [Code of Conduct](CODE_OF_CONDUCT
 
 ---
 
-**Still need help?** Don't hesitate to ask! Join our [Discord](https://discord.gg/ZnHG4csJRB) or start a [GitHub Discussion](https://github.com/orgs/WebMCP-org/discussions).
+**Still need help?** Don't hesitate to ask! Join our [Discord](https://discord.gg/ZnHG4csJRB) or start a [GitHub Discussion](https://github.com/orgs/MCP-B/discussions).
 
-We're here to help you succeed with WebMCP!
+We're here to help you succeed with MCP-B!

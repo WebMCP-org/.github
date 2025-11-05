@@ -2,7 +2,7 @@
 
 ## Our Pledge
 
-We as members, contributors, and leaders pledge to make participation in the WebMCP community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We as members, contributors, and leaders pledge to make participation in the **MCP-B** community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
@@ -94,7 +94,7 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 
 If you have questions about this Code of Conduct, please:
 - Ask in [Discord](https://discord.gg/ZnHG4csJRB)
-- Open a [GitHub Discussion](https://github.com/orgs/WebMCP-org/discussions)
+- Open a [GitHub Discussion](https://github.com/orgs/MCP-B/discussions)
 - Contact the maintainers directly
 
 ---

@@ -2,11 +2,11 @@
 
 ## Our Commitment
 
-WebMCP takes security seriously. As a protocol that bridges AI agents with web applications, we're committed to ensuring the safety and security of our users, their data, and their applications.
+**MCP-B** takes security seriously. As a protocol that bridges AI agents with web applications, we're committed to ensuring the safety and security of our users, their data, and their applications.
 
 ## Security Architecture
 
-WebMCP is designed with security as a core principle:
+MCP-B is designed with security as a core principle:
 
 - **Origin-based Security** - Tools are scoped to their origin, preventing cross-origin tool access
 - **Browser Security Model** - Leverages the browser's built-in authentication and security features
@@ -61,7 +61,7 @@ Please include the following information:
 
 ## Security Best Practices
 
-When building with WebMCP, follow these best practices:
+When building with MCP-B, follow these best practices:
 
 ### For Tool Developers
 
@@ -158,8 +158,8 @@ For security concerns:
 For general security questions:
 - [Documentation](https://docs.mcp-b.ai/security)
 - [Discord](https://discord.gg/ZnHG4csJRB)
-- [GitHub Discussions](https://github.com/orgs/WebMCP-org/discussions)
+- [GitHub Discussions](https://github.com/orgs/MCP-B/discussions)
 
 ---
 
-Thank you for helping keep WebMCP and our community safe!
+Thank you for helping keep **MCP-B** and our community safe!
