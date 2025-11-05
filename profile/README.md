@@ -2,7 +2,9 @@
 
   # MCP-B
 
-  ### Building a Better Web for Browser Agents
+  ### Model Context Protocol for the Browser
+
+  #### Building a Better Web for Browser Agents
 
   <br>
 
@@ -22,7 +24,26 @@
 
 ## Overview
 
-**MCP-B** (Model Context Protocol for Browsers) extends the [Model Context Protocol](https://modelcontextprotocol.io) to the browser, enabling websites to expose AI-callable tools through `navigator.modelContext`. Build intelligent, interactive web applications that AI agents can discover and control seamlessly.
+### What is WebMCP?
+
+**WebMCP** (Web Model Context Protocol) is a proposed W3C web standard being incubated by the [Web Machine Learning Community Group](https://github.com/webmachinelearning/webmcp). It enables websites to expose AI-callable tools through the browser's `navigator.modelContext` API, allowing AI agents to discover and interact with web applications directly in the browser.
+
+WebMCP is optimized for browser-based, user-present interactions with built-in web security features, leveraging the browser's origin-based security model and user authentication. Learn more in the [W3C WebMCP Explainer](https://github.com/webmachinelearning/webmcp).
+
+### What is MCP-B?
+
+**MCP-B** bridges the gap between WebMCP and the [Model Context Protocol (MCP)](https://modelcontextprotocol.io), serving two critical functions:
+
+1. **API Implementation** — Provides a polyfill that implements the `navigator.modelContext` interface for browsers lacking native support
+2. **Protocol Translation** — Converts between WebMCP's web-native format and the MCP protocol, enabling cross-compatibility
+
+MCP-B creates interoperability by enabling WebMCP-formatted tools to function with MCP clients (like Claude Desktop), and MCP-formatted tools to operate within WebMCP-enabled browsers. This allows both standards to evolve independently without breaking existing implementations.
+
+### Open Source & Licensing
+
+All MCP-B libraries and SDKs are **open source** (MIT Licensed), enabling developers to build WebMCP-enabled applications freely. However, the browser extension for connecting to MCP clients is **not open source**.
+
+For developers interested in contributing to browser extension development, check out the [POC MCP-B Extension](https://github.com/MiguelsPizza/WebMCP) (AGPL-3.0) by the community.
 
 ## Key Features
 
