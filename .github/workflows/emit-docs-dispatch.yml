@@ -1,0 +1,71 @@
+name: Emit docs sync signal
+
+on:
+  workflow_call:
+    inputs:
+      docs_repo:
+        description: "owner/docs-repo"
+        required: true
+        type: string
+      docs_workflow_file:
+        description: "Workflow file name in docs repo"
+        required: true
+        type: string
+      branch_ref:
+        description: "Docs repo branch to run on"
+        required: false
+        type: string
+        default: "main"
+
+jobs:
+  emit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Collect changed files on push (avoid third-party actions; use git)
+      - name: Collect changed files
+        id: changed
+        shell: bash
+        run: |
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.sha }}"
+          if [ -n "$BEFORE" ]; then
+            git diff --name-only "$BEFORE" "$AFTER" > /tmp/changed.txt || true
+          else
+            # Fallback (e.g., release event)
+            git show --name-only --pretty="" "$AFTER" > /tmp/changed.txt || true
+          fi
+          echo "list<<EOF" >> $GITHUB_OUTPUT
+          cat /tmp/changed.txt >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Trigger docs workflow via workflow_dispatch
+        uses: actions/github-script@v8
+        env:
+          DOCS_REPO: ${{ inputs.docs_repo }}
+          DOCS_WORKFLOW: ${{ inputs.docs_workflow_file }}
+          BRANCH_REF: ${{ inputs.branch_ref }}
+          CHANGED: ${{ steps.changed.outputs.list }}
+        with:
+          github-token: ${{ secrets.DOCS_DISPATCH_TOKEN }}
+          script: |
+            const [owner, repo] = process.env.DOCS_REPO.split('/');
+            const inputs = {
+              source_repo: process.env.GITHUB_REPOSITORY,
+              source_sha: process.env.GITHUB_SHA,
+              compare_url: `https://github.com/${process.env.GITHUB_REPOSITORY}/compare/${process.env.GITHUB_EVENT_BEFORE}...${process.env.GITHUB_SHA}`,
+              changed_files: process.env.CHANGED ?? ''
+            };
+            await github.rest.actions.createWorkflowDispatch({
+              owner,
+              repo,
+              workflow_id: process.env.DOCS_WORKFLOW,
+              ref: process.env.BRANCH_REF,
+              inputs
+            });
