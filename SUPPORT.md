@@ -6,8 +6,8 @@ Welcome to the **MCP-B** community! We're here to help you build AI-accessible w
 
 - **[Documentation](https://docs.mcp-b.ai)** - Comprehensive guides and API references
 - **[Discord](https://discord.gg/ZnHG4csJRB)** - Real-time chat with the community
-- **[GitHub Discussions](https://github.com/orgs/MCP-B/discussions)** - Ask questions and discuss ideas
-- **[Examples](https://github.com/MCP-B/examples)** - Sample implementations
+- **[GitHub Issues](https://github.com/WebMCP-org/npm-packages/issues)** - Report bugs and request features
+- **[Examples](https://github.com/WebMCP-org/examples)** - Sample implementations
 - **[Live Demo](https://mcp-b.ai)** - Interactive examples and playground
 
 ## Documentation
@@ -51,24 +51,15 @@ Join our [Discord server](https://discord.gg/ZnHG4csJRB) for:
 
 **Best for:** Quick questions, troubleshooting, community chat
 
-### GitHub Discussions
-
-Use [GitHub Discussions](https://github.com/orgs/MCP-B/discussions) for:
-- Feature requests and ideas
-- Architecture discussions
-- Questions that benefit from long-form answers
-- Showcasing your projects
-
-**Best for:** In-depth discussions, feature requests, showcases
-
 ### GitHub Issues
 
-File [GitHub Issues](https://github.com/orgs/MCP-B/issues) for:
-- Bug reports
-- Documentation issues
+Use [GitHub Issues](https://github.com/WebMCP-org/npm-packages/issues) for:
+- Bug reports and documentation issues
+- Feature requests and ideas
+- Architecture discussions
 - Specific technical problems
 
-**Best for:** Bug reports, reproducible issues
+**Best for:** Bug reports, feature requests, in-depth discussions
 
 ## Before Asking for Help
 
@@ -77,8 +68,8 @@ To get the fastest, most helpful response:
 1. **Search First**
    - Check the [documentation](https://docs.mcp-b.ai)
    - Search [Discord history](https://discord.gg/ZnHG4csJRB)
-   - Browse [GitHub Discussions](https://github.com/orgs/MCP-B/discussions)
-   - Look through [existing issues](https://github.com/orgs/MCP-B/issues)
+   - Browse [GitHub Issues](https://github.com/WebMCP-org/npm-packages/issues)
+   - Look through [existing issues](https://github.com/WebMCP-org/npm-packages/issues)
 
 2. **Provide Context**
    - What are you trying to accomplish?
@@ -161,7 +152,7 @@ See our [Contributing Guide](CONTRIBUTING.md) to get started.
 
 ## Stay Updated
 
-- **[GitHub Releases](https://github.com/orgs/MCP-B/repositories)** - Release notes and changelogs
+- **[GitHub Releases](https://github.com/orgs/WebMCP-org/repositories)** - Release notes and changelogs
 - **[Discord Announcements](https://discord.gg/ZnHG4csJRB)** - Important updates
 - **[Changelog](https://docs.mcp-b.ai/changelog)** - Detailed version history
 - **[Twitter/X](https://x.com/miguelsPizza)** - News and updates
@@ -172,6 +163,6 @@ All community interactions are governed by our [Code of Conduct](CODE_OF_CONDUCT
 
 ---
 
-**Still need help?** Don't hesitate to ask! Join our [Discord](https://discord.gg/ZnHG4csJRB) or start a [GitHub Discussion](https://github.com/orgs/MCP-B/discussions).
+**Still need help?** Don't hesitate to ask! Join our [Discord](https://discord.gg/ZnHG4csJRB) or open a [GitHub Issue](https://github.com/WebMCP-org/npm-packages/issues).
 
 We're here to help you succeed with MCP-B!

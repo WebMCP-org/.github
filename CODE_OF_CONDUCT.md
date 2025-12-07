@@ -94,7 +94,7 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 
 If you have questions about this Code of Conduct, please:
 - Ask in [Discord](https://discord.gg/ZnHG4csJRB)
-- Open a [GitHub Discussion](https://github.com/orgs/MCP-B/discussions)
+- Open a [GitHub Issue](https://github.com/WebMCP-org/npm-packages/issues)
 - Contact the maintainers directly
 
 ---

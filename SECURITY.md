@@ -158,7 +158,7 @@ For security concerns:
 For general security questions:
 - [Documentation](https://docs.mcp-b.ai/security)
 - [Discord](https://discord.gg/ZnHG4csJRB)
-- [GitHub Discussions](https://github.com/orgs/MCP-B/discussions)
+- [GitHub Issues](https://github.com/WebMCP-org/npm-packages/issues)
 
 ---
 

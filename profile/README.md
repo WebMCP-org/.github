@@ -15,7 +15,7 @@
 
   <br>
 
-  **[Website](https://mcp-b.ai)** • **[Documentation](https://docs.mcp-b.ai)** • **[Discord](https://discord.gg/ZnHG4csJRB)** • **[Examples](https://github.com/MCP-B/examples)**
+  **[Website](https://mcp-b.ai)** • **[Documentation](https://docs.mcp-b.ai)** • **[Discord](https://discord.gg/ZnHG4csJRB)** • **[Examples](https://github.com/WebMCP-org/examples)**
 
   <br>
 </div>
@@ -101,7 +101,7 @@ navigator.modelContext.registerTool({
 ## Community
 
 - **[Discord](https://discord.gg/ZnHG4csJRB)** — Get help, share ideas, and collaborate
-- **[GitHub Discussions](https://github.com/orgs/MCP-B/discussions)** — Ask questions and discuss features
+- **[GitHub Issues](https://github.com/WebMCP-org/npm-packages/issues)** — Report bugs and request features
 - **[Contributing](CONTRIBUTING.md)** — Learn how to contribute to MCP-B
 - **[Code of Conduct](CODE_OF_CONDUCT.md)** — Our community standards
 
