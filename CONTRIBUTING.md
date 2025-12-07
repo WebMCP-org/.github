@@ -6,12 +6,12 @@ Thank you for your interest in contributing to **MCP-B**! We're building the sta
 
 1. **Join our community**
    - [Discord](https://discord.gg/ZnHG4csJRB) - Chat with maintainers and other contributors
-   - [GitHub Discussions](https://github.com/orgs/MCP-B/discussions) - Ask questions and discuss ideas
+   - [GitHub Issues](https://github.com/WebMCP-org/npm-packages/issues) - Report bugs and request features
 
 2. **Find something to work on**
-   - Browse [open issues](https://github.com/orgs/MCP-B/issues)
+   - Browse [open issues](https://github.com/WebMCP-org/npm-packages/issues)
    - Look for issues labeled `good first issue` or `help wanted`
-   - Check our [project boards](https://github.com/orgs/MCP-B/projects) for planned work
+   - Check our [project boards](https://github.com/orgs/WebMCP-org/projects) for planned work
 
 3. **Read the documentation**
    - [Architecture Overview](https://docs.mcp-b.ai/concepts/architecture)
@@ -152,7 +152,7 @@ Contributors who make significant contributions will be:
 ## Questions?
 
 - Ask in [Discord](https://discord.gg/ZnHG4csJRB)
-- Open a [GitHub Discussion](https://github.com/orgs/MCP-B/discussions)
+- Open a [GitHub Issue](https://github.com/WebMCP-org/npm-packages/issues)
 - Check the [documentation](https://docs.mcp-b.ai)
 
 ## License
