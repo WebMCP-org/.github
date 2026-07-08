@@ -26,7 +26,7 @@
 
 ### What is WebMCP?
 
-**WebMCP** (Web Model Context Protocol) is a proposed W3C web standard being incubated by the [Web Machine Learning Community Group](https://github.com/webmachinelearning/webmcp). It enables websites to expose AI-callable tools through the browser's `navigator.modelContext` API, allowing AI agents to discover and interact with web applications directly in the browser.
+**WebMCP** (Web Model Context Protocol) is a proposed W3C web standard being incubated by the [Web Machine Learning Community Group](https://github.com/webmachinelearning/webmcp). It enables websites to expose AI-callable tools through the browser's `document.modelContext` API, allowing AI agents to discover and interact with web applications directly in the browser.
 
 WebMCP is optimized for browser-based, user-present interactions with built-in web security features, leveraging the browser's origin-based security model and user authentication. Learn more in the [W3C WebMCP Explainer](https://github.com/webmachinelearning/webmcp).
 
@@ -34,7 +34,7 @@ WebMCP is optimized for browser-based, user-present interactions with built-in w
 
 **MCP-B** bridges the gap between WebMCP and the [Model Context Protocol (MCP)](https://modelcontextprotocol.io), serving two critical functions:
 
-1. **API Implementation** — Provides a polyfill that implements the `navigator.modelContext` interface for browsers lacking native support
+1. **API Implementation** — Provides a polyfill that implements the `document.modelContext` interface for browsers lacking native support
 2. **Protocol Translation** — Converts between WebMCP's web-native format and the MCP protocol, enabling cross-compatibility
 
 MCP-B creates interoperability by enabling WebMCP-formatted tools to function with MCP clients (like Claude Desktop), and MCP-formatted tools to operate within WebMCP-enabled browsers. This allows both standards to evolve independently without breaking existing implementations.
@@ -65,7 +65,7 @@ npm install @mcp-b/react-webmcp
 
 ```javascript
 // Register a tool that AI agents can discover and call
-navigator.modelContext.registerTool({
+document.modelContext.registerTool({
   name: "get_user_profile",
   description: "Get the current user's profile information",
   inputSchema: {
